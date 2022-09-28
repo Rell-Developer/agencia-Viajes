@@ -1,0 +1,24 @@
+{
+  "name": "agenciaviajesnode",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto con Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "author": "Roque Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "moment-timezone": "^0.5.37",
+    "mysql2": "^2.3.3",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "moment-timezone": "^0.5.37"
+  }
+}
